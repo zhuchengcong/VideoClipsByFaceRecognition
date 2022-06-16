@@ -13,6 +13,7 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
@@ -29,15 +30,13 @@ if __name__ == '__main__':
 
 def read_one_frame():
     import cv2 as cv
-
-    cap = cv.VideoCapture('D:\\18776860-1-80.flv')
+    cap = cv.VideoCapture('F:\\剪辑素材库\\陈都灵\\18776860_da3-1-16.mp4')
     while cap.isOpened():
         ret, frame = cap.read()
         # if frame is read correctly ret is True
         if not ret:
             print("Can't receive frame (stream end?). Exiting ...")
             break
-        print(frame)
         gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
         cv.imshow('frame', gray)
         cv.imwrite('xxxxxxxxxxxxxxxxxxxxx' + '.jpg', frame)
@@ -48,10 +47,12 @@ def read_one_frame():
     cap.release()
     cv.destroyAllWindows()
 
-import cv2
+
+read_one_frame()
 
 
 def clip_video(source_video, target_video, start_time, end_time):
+    import cv2
     cap = cv2.VideoCapture(source_video)
     if not cap.isOpened():
         print('video is not opened')
