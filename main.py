@@ -16,7 +16,7 @@ if __name__ == '__main__':
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
-from moviepy.editor import *
+# from moviepy.editor import *
 
 # Load myHolidays.mp4 and select the subclip 00:00:50 - 00:00:60
 
