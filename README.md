@@ -36,6 +36,7 @@ python start_clip.py -source source.mp4 -target target.mp4 -img chenduling.png -
 ## :bulb: 需要注意的事情
 
 - dlib包安装不上的话，需要自行去下载dlib-19.8.1-cp36-cp36m-win_amd64.whl离线安装
+- windows下dlib包最高支持python3.6，注意python版本，否则dlib安装不上
 
 
 
