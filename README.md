@@ -1,7 +1,7 @@
 
 # [VideoClipsByFaceRecognition](https://github.com/zhuchengcong/VideoClipsByFaceRecognition.git)
 
-使用opencv-python,face_recognition识别视频中的人脸,进行剪辑，剪掉不想关的部分
+使用opencv-python，face_recognition识别视频中的人脸,进行剪辑，剪掉不想关的部分，windows，linux均支持
 > 目前剪辑出来的视频没有音频，后续使用moviepy实现音频同步
 
 ## :star: 技术栈
