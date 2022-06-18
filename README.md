@@ -6,7 +6,7 @@
 
 ## :star: 特性
 
-- 使用 python 3.6
+- python 3.6
 - face_recognition
 - opencv
 - virtualenv
@@ -30,7 +30,7 @@ virtualenv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 cd code
-python python start_clip.py -source source.mp4 -target target.mp4 -img chenduling.png -time 1
+python start_clip.py -source source.mp4 -target target.mp4 -img chenduling.png -time 1
 ```
 
 ## :bulb: 需要注意的事情
