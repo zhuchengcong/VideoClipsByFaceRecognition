@@ -41,8 +41,8 @@ python start_clip.py -source source.mp4 -target target.mp4 -img chenduling.png -
 
 ## :参数
 - python start_clip.py -source source.mp4 -target target.mp4 -img chenduling.png -time 1
-* `-source` -源视频绝对路径或者相对路径.
+* `-source` - 源视频绝对路径或者相对路径.
 * `-target` - 输出视频绝对路径或者相对路径.
-* `-img` -需要识别剪辑的人脸图片绝对路径或者相对路径.
-* `-time` -人脸对比间隔时间单位秒，间隔时间越大，速度越快，出现相关人脸的前后视频时间越长.
+* `-img` - 需要识别剪辑的人脸图片绝对路径或者相对路径.
+* `-time` - 人脸对比间隔时间单位秒，间隔时间越大，速度越快，出现相关人脸的前后视频时间越长.
 
