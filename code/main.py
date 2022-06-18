@@ -97,7 +97,7 @@ def clip_video_by_face(source_video, target_video, img, detection_interval_time)
     :param source_video: 源视频路径
     :param target_video: 输出视频路径
     :param img: 需要剪辑的人脸
-    :param detection_interval_time: 人脸对比间隔时间单位秒，间隔时间越大，速度越快，出现人脸的视频前
+    :param detection_interval_time: 人脸对比间隔时间单位秒，间隔时间越大，速度越快，出现人脸的视频前后视频时间越长
     :return:
     """
     if not os.path.exists(img):
