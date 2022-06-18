@@ -1,14 +1,14 @@
 
 # [VideoClipsByFaceRecognition](https://github.com/zhuchengcong/VideoClipsByFaceRecognition.git)
 
-更具人脸图片自动识别人脸剪辑视频，剪掉不想关的部分，自动砍柴。
+根据人脸图片自动识别人脸剪辑视频，剪掉不想关的部分，自动砍柴。
 > 目前剪辑出来的视频没有音频，后续使用moviepy实现音频同步
 
-## :star: 特性
+## :star: 技术栈
 
 - python 3.6
 - face_recognition
-- opencv
+- opencv-python
 - virtualenv
 
 ## 目录结构
