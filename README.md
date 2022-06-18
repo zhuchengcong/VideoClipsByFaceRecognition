@@ -44,5 +44,5 @@ python start_clip.py -source source.mp4 -target target.mp4 -img chenduling.png -
 * `-source` -源视频路径.
 * `-target` - 输出视频路径.
 * `-img` -需要识别剪辑的人脸图片.
-* `-time` -人脸对比间隔时间单位秒，间隔时间越大，速度越快，出现人脸的视频前后视频时间越长.
+* `-time` -人脸对比间隔时间单位秒，间隔时间越大，速度越快，出现相关人脸的前后视频时间越长.
 
