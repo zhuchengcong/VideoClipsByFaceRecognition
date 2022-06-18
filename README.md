@@ -40,7 +40,7 @@ python start_clip.py -source source.mp4 -target target.mp4 -img chenduling.png -
 
 
 ## :参数
-- python start_clip.py 
+- python start_clip.py -source source.mp4 -target target.mp4 -img chenduling.png -time 1
 * `-source` -源视频路径.
 * `-target` - 输出视频路径.
 * `-img` -需要识别剪辑的人脸图片.
